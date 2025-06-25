@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import dayjs from "dayjs";
-import "./Calendar.css";
+import "./calendar.css";
 
 export default function Calendar() {
   const [currentMonth, setCurrentMonth] = useState(dayjs());
